@@ -1,11 +1,11 @@
 var gulp = require('gulp'),
   connect = require('gulp-connect'),
   livereload = require('gulp-livereload'),
-  compass = require('gulp-compass'),
-  base64 = require('gulp-base64'),
+  // compass = require('gulp-compass'),
+  // base64 = require('gulp-base64'),
   jshint = require('gulp-jshint');
 
-gulp.task('compass', function() {
+/*gulp.task('compass', function() {
   gulp.src('./src/css/*.scss')
     .pipe(compass({
       sass: './src/css',
@@ -17,7 +17,7 @@ gulp.task('compass', function() {
     .pipe(gulp.dest('./src/css'))
     .pipe(connect.reload());
 
-});
+});*/
 
 gulp.task('jshint', function() {
   gulp.src('./src/js/app/*.js')

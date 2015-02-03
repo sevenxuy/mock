@@ -5,8 +5,8 @@
     "gulp": "latest",
     "gulp-connect": "latest",
     "gulp-livereload": "latest",
-    "gulp-compass": "latest",
-    "gulp-base64": "latest",
+    // "gulp-compass": "latest",
+    // "gulp-base64": "latest",
     "gulp-jshint": "latest"
   },
   "engines": {
