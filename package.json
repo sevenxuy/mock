@@ -1,0 +1,15 @@
+{
+  "name": "mock",
+  "version": "0.0.0",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-connect": "latest",
+    "gulp-livereload": "latest",
+    "gulp-compass": "latest",
+    "gulp-base64": "latest",
+    "gulp-jshint": "latest"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
